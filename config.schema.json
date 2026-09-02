@@ -1,0 +1,12 @@
+{
+  "pluginAlias": "UiVladilen4ik",
+  "pluginType": "platform",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": { "title": "Accessory name", "type": "string", "default": "UI Debug" },
+      "debugMessage": { "title": "Debug message", "type": "string", "default": "Hello from Homebridge UI" },
+      "enabled": { "title": "Enable accessory", "type": "boolean", "default": true }
+    }
+  }
+}
