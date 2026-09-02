@@ -1,0 +1,10 @@
+{
+  "name": "homebridge-ui-vladilen4ik",
+  "version": "1.0.0",
+  "description": "Minimal Homebridge UI settings and debug logging example",
+  "main": "dist/index.js",
+  "keywords": ["homebridge-plugin", "debug", "example"],
+  "engines": { "node": ">=20.0.0", "homebridge": ">=1.8.0" },
+  "scripts": { "build": "tsc -p tsconfig.json", "prepare": "npm run build", "test": "npm run build" },
+  "devDependencies": { "@types/node": "^22.10.2", "homebridge": "^1.8.5", "typescript": "^5.7.2" }
+}
